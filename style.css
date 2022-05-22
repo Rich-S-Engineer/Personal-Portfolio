@@ -1,0 +1,43 @@
+/* add the following code to the top of your CSS page */
+{
+  box-sizing: border-box;
+}
+
+/* Page margin */
+body{
+  margin: 15px;
+}
+
+h1 ,header {
+  padding: 10px;
+  background-color: #8aacb7;
+  text-align: center;
+  font-family: Serif, 'Times New Roman';
+  font-size: 60px;
+  color:darkblue;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Times New Roman';
+  font-size: 24px;
+  color:#3f3737;
+}
+
+h3, p, ul {
+  font-family: Sans-serif, Arial;
+  font-size: 18px;
+  color: #1a2929;
+}
+
+/* Round corners of images */
+.image-rounded {
+    border-radius: 10%; 
+}
+
+footer {
+  background-color: lightgray;
+  }
+
+/* Borders */
+.solid  {  border: 1px solid #000;   }
